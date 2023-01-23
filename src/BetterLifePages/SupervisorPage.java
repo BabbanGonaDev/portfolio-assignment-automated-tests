@@ -106,7 +106,7 @@ public class SupervisorPage {
 	
 	public boolean AssignToQuadrant_2(String StaffId) throws InterruptedException {
 		ManageQuadrant.click();
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		AddNewFO.click();
 		Thread.sleep(3000);
 		SearchBox.sendKeys(StaffId);
@@ -121,16 +121,16 @@ public class SupervisorPage {
 	
 	public void Remove_FO_From_Quadrant_1(String QuadrantID) throws InterruptedException {
 		AssignToQuadrant.click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		SearchBox.sendKeys(QuadrantID);
 		Thread.sleep(5000);
 		ManageQuadrant.click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		View_FO_Assignment.click();
 	}
 	
 	public void Remove_FO_From_Quadrant_2(String StaffId) throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		SearchBox.sendKeys(StaffId);
 		Thread.sleep(5000);
 		RemoveBtn.click();
@@ -157,9 +157,11 @@ public class SupervisorPage {
 	
 	public void AddFieldOfficerToVillage1(String QuadrantID) throws InterruptedException {
 		AssignFieldOfficerToVillage.click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		SearchBox.sendKeys(QuadrantID);
+		Thread.sleep(5000);
 		GoToQuadrant.click();
+		Thread.sleep(5000);
 		
 		
 	}

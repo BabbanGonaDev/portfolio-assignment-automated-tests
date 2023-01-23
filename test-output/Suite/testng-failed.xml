@@ -7,10 +7,6 @@
         <methods>
           <include name="Verify_Remove_FO_From_Quadrant"/>
           <include name="Add_Field_Officer_To_Village"/>
-          <include name="Verify_Manage_Field_Officer_Portfolio_Size_Button"/>
-          <include name="Verify_Add_FO_To_Quadrant_For_Assignment"/>
-          <include name="Verify_View_A_Field_Officer_Allocation"/>
-          <include name="Add_Lead_Coach_Button_In_Go_To_Quadrant"/>
         </methods>
       </class> <!-- BetterLifeTest.SupervisorPageTest -->
     </classes>
@@ -19,8 +15,7 @@
     <classes>
       <class name="BetterLifeTest.AdminPageTest">
         <methods>
-          <include name="Verify_Admin_Can_Switch_Hub"/>
-          <include name="Verify_Approve_And_Reject_A_Single_FO"/>
+          <include name="Verify_Re_Assign_FO"/>
         </methods>
       </class> <!-- BetterLifeTest.AdminPageTest -->
     </classes>

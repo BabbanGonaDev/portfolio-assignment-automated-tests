@@ -108,12 +108,12 @@ public class SupervisorPageTest {
 		SupervisorPage SP = new SupervisorPage(driver);
 		SP.AddFieldOfficerToVillage1("004");
 		
-		WebElement source = driver.findElement(By.xpath("(//img[@alt='profile'])"));
-		WebElement target = driver.findElement(By.xpath("//ul[@class='draggable-table-body']//li[1]"));
+		WebElement source = driver.findElement(By.xpath("//div[normalize-space()='1']"));
+		WebElement target = driver.findElement(By.xpath("(//div[contains(text(),'Unassigned')])[1]"));
 		
 		Actions action = new Actions(driver);
-		//action.moveToElement(source).clickAndHold().moveToElement(target).release().build().perform();
-		action.moveToElement(source).dragAndDrop(source, target).build().perform();
+		action.moveToElement(source).clickAndHold().moveToElement(target).release().perform();
+		//action.moveToElement(source).dragAndDrop(source, target).build().perform();
 		Thread.sleep(5000);
 		
 		Boolean success = SP.AddFieldOfficerToVillage2();

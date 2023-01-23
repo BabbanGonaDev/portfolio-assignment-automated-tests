@@ -5,9 +5,7 @@
     <classes>
       <class name="BetterLifeTest.SupervisorPageTest">
         <methods>
-          <include name="Verify_Remove_FO_From_Quadrant"/>
           <include name="Add_Field_Officer_To_Village"/>
-          <include name="Verify_Add_FO_To_Quadrant"/>
         </methods>
       </class> <!-- BetterLifeTest.SupervisorPageTest -->
     </classes>

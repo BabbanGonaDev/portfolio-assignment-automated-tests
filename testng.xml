@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite  name="Suite">
-
-  <test  name="Authorization">
-    <classes>
-      <class name="BetterLifeTest.LogingPageTest"/>
-    </classes>
-  </test> 
-  
-  <test  name="Supervisor">
-    <classes>
-      <class name="BetterLifeTest.SupervisorPageTest"/>
-    </classes>
-  </test> 
-  
-  <test  name="Admin">
+<suite name="Suite">
+  <test thread-count="3" name="Test">
     <classes>
       <class name="BetterLifeTest.AdminPageTest"/>
+      <class name="BetterLifeTest.LogingPageTest"/>
+      <class name="BetterLifeTest.SupervisorPageTest"/>
     </classes>
-  </test> 
-  
-</suite> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

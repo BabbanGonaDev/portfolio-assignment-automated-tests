@@ -117,11 +117,13 @@ public class AdminPage {
 		SubmitSelectedHub.click();
 	}
 	
-	public String ApproveAllButton()  {
+	public String ApproveAllButton() throws InterruptedException  {
 		ApprovePortfolios.click();
 		Hub.click();
+		Thread.sleep(5000);
 		SelectAllFO.click();
 		ApproveAllBtn.click();
+		Thread.sleep(30000);
 		return ApproveAllBtnCheck.getText();
 	}
 	
@@ -131,8 +133,10 @@ public class AdminPage {
 		Thread.sleep(5000);
 		SelectAllFO.click();
 		RejectAllBtn.click();
+		Thread.sleep(2000);
 		RejectReason.sendKeys("Test Trial");
 		RejectSubmitBtn.click();
+		Thread.sleep(30000);
 		return RejectAllBtnCheck.getText();
 	}
 	
@@ -145,7 +149,6 @@ public class AdminPage {
 		RejectSubmitBtn.click();
 		Thread.sleep(30000);
 		return ApproveAllBtnCheck.getText();
-		
 	}
 	
 	

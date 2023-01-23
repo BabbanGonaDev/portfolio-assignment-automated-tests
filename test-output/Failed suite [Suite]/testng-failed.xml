@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Supervisor(failed)(failed)">
+    <classes>
+      <class name="BetterLifeTest.SupervisorPageTest">
+        <methods>
+          <include name="Verify_Remove_FO_From_Quadrant"/>
+          <include name="Add_Field_Officer_To_Village"/>
+        </methods>
+      </class> <!-- BetterLifeTest.SupervisorPageTest -->
+    </classes>
+  </test> <!-- Supervisor(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

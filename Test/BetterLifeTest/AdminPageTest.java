@@ -50,6 +50,7 @@ public class AdminPageTest {
 	  
 	  AP.ChangeHub_1("Ikara");
 		
+	  
 	  Robot RB = new Robot(); 
 	  RB.keyPress(KeyEvent.VK_ENTER);
 	  RB.keyRelease(KeyEvent.VK_ENTER);
@@ -79,8 +80,8 @@ public class AdminPageTest {
 	  RB.keyRelease(KeyEvent.VK_ENTER);
 	  AP.ChangeHub_3();
 	  
-	  String ActualApprovalCheckText = AP.RejectAllButton(); String
-	  ExpectedApprovalCheckText = "Rejected";
+	  String ActualApprovalCheckText = AP.RejectAllButton(); 
+	  String ExpectedApprovalCheckText = "Rejected";
 	  Assert.assertEquals(ActualApprovalCheckText, ExpectedApprovalCheckText);
 	  
 	  BaseClass.TearDown(driver);
@@ -89,7 +90,8 @@ public class AdminPageTest {
 	  
 	  
 	  
-	  @Test(priority=3) 
+	  @Test(priority=3
+			  )
 	  public void Verify_Approve_And_Reject_A_Single_FO() throws InterruptedException, AWTException { 
 	  WebDriver driver = BaseClass.SetUp();
 	  BaseClass.Admin_Username_password(driver);
@@ -169,5 +171,6 @@ public class AdminPageTest {
 	  BaseClass.TearDown(driver);
 	  
 	  }
+
 
 }
