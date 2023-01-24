@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 20 14:12:34 WAT 2023</td>
+<td>Started on:</td><td>Mon Jan 23 14:39:41 WAT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>323 seconds (323500 ms)</td>
+<tr><td>Total time:</td><td>350 seconds (350855 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BetterLifeTest.AdminPageTest.Verify_Re_Assign_FO()'><b>Verify_Re_Assign_FO</b><br>Test class: BetterLifeTest.AdminPageTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;cursor-pointer h-20 text-4xl flex items-center justify-center col-span-1 text-white bg-[#eec978]&quot;&gt;...&lt;/div&gt; is not clickable at point (310, 238). Other element would receive the click: &lt;div class=&quot;loader-wrapper&quot;&gt;...&lt;/div&gt;
+<td title='BetterLifeTest.AdminPageTest.Reset_Process_Test()'><b>Reset_Process_Test</b><br>Test class: BetterLifeTest.AdminPageTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;w-full btn-own py-2 bg-secondary text-white text-[15px]&quot;&gt;...&lt;/button&gt; is not clickable at point (744, 544). Other element would receive the click: &lt;div class=&quot;react-responsive-modal-container react-responsive-modal-containerCenter&quot; data-testid=&quot;modal-container&quot;&gt;...&lt;/div&gt;
   (Session info: MicrosoftEdge=109.0.1518.55)
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [529b4c63ff3c7359f808054a4a972f92, clickElement {id=5e07ae31-5c78-4cbb-8292-47f93b1ed6fa}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:64085}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (529b4c63ff3c7359f808054a4a972f92)] -&gt; xpath: //div[@class=&apos;cursor-pointer h-20 text-4xl flex items-center justify-center col-span-1 text-white bg-[#eec978]&apos;]]
-Session ID: 529b4c63ff3c7359f808054a4a972f92
+Command: [d2eb824f7aa6f1a5a9480c89e0686d3f, clickElement {id=47bd63da-4e1f-4188-b050-cf625041981e}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:55504}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55504/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (d2eb824f7aa6f1a5a9480c89e0686d3f)] -&gt; xpath: //button[normalize-space()=&apos;Approve Portfolios&apos;]]
+Session ID: d2eb824f7aa6f1a5a9480c89e0686d3f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -97,19 +97,19 @@ Session ID: 529b4c63ff3c7359f808054a4a972f92
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at BetterLifePages.AdminPage.ApproveAndReject_A_SingleRequest1(AdminPage.java:146)
-	at BetterLifeTest.AdminPageTest.Verify_Re_Assign_FO(AdminPageTest.java:137)
+	at BetterLifePages.AdminPage.Rest_To_Reject_Status(AdminPage.java:197)
+	at BetterLifeTest.AdminPageTest.Reset_Process_Test(AdminPageTest.java:169)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace586055644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace586055644'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;cursor-pointer h-20 text-4xl flex items-center justify-center col-span-1 text-white bg-[#eec978]&quot;&gt;...&lt;/div&gt; is not clickable at point (310, 238). Other element would receive the click: &lt;div class=&quot;loader-wrapper&quot;&gt;...&lt;/div&gt;
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace133145446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace133145446'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;w-full btn-own py-2 bg-secondary text-white text-[15px]&quot;&gt;...&lt;/button&gt; is not clickable at point (744, 544). Other element would receive the click: &lt;div class=&quot;react-responsive-modal-container react-responsive-modal-containerCenter&quot; data-testid=&quot;modal-container&quot;&gt;...&lt;/div&gt;
   (Session info: MicrosoftEdge=109.0.1518.55)
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [529b4c63ff3c7359f808054a4a972f92, clickElement {id=5e07ae31-5c78-4cbb-8292-47f93b1ed6fa}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:64085}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64085/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (529b4c63ff3c7359f808054a4a972f92)] -&gt; xpath: //div[@class=&apos;cursor-pointer h-20 text-4xl flex items-center justify-center col-span-1 text-white bg-[#eec978]&apos;]]
-Session ID: 529b4c63ff3c7359f808054a4a972f92
+Command: [d2eb824f7aa6f1a5a9480c89e0686d3f, clickElement {id=47bd63da-4e1f-4188-b050-cf625041981e}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:55504}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55504/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (d2eb824f7aa6f1a5a9480c89e0686d3f)] -&gt; xpath: //button[normalize-space()=&apos;Approve Portfolios&apos;]]
+Session ID: d2eb824f7aa6f1a5a9480c89e0686d3f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,8 +128,8 @@ Session ID: 529b4c63ff3c7359f808054a4a972f92
 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at BetterLifePages.AdminPage.ApproveAndReject_A_SingleRequest1(AdminPage.java:146)
-	at BetterLifeTest.AdminPageTest.Verify_Re_Assign_FO(AdminPageTest.java:137)
+	at BetterLifePages.AdminPage.Rest_To_Reject_Status(AdminPage.java:197)
+	at BetterLifeTest.AdminPageTest.Reset_Process_Test(AdminPageTest.java:169)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -159,8 +159,8 @@ Session ID: 529b4c63ff3c7359f808054a4a972f92
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>23</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
+<td>39</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -171,30 +171,30 @@ Session ID: 529b4c63ff3c7359f808054a4a972f92
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BetterLifeTest.AdminPageTest.Verify_Reject_All_Button()'><b>Verify_Reject_All_Button</b><br>Test class: BetterLifeTest.AdminPageTest</td>
-<td></td>
-<td>61</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
-<tr>
 <td title='BetterLifeTest.AdminPageTest.Verify_Approve_All_Button()'><b>Verify_Approve_All_Button</b><br>Test class: BetterLifeTest.AdminPageTest</td>
 <td></td>
-<td>53</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
+<td>56</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
 <tr>
 <td title='BetterLifeTest.AdminPageTest.Verify_Admin_Can_Switch_Hub()'><b>Verify_Admin_Can_Switch_Hub</b><br>Test class: BetterLifeTest.AdminPageTest</td>
 <td></td>
-<td>21</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
+<td>22</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
+<tr>
+<td title='BetterLifeTest.AdminPageTest.Verify_Re_Assign_FO()'><b>Verify_Re_Assign_FO</b><br>Test class: BetterLifeTest.AdminPageTest</td>
+<td></td>
+<td>82</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
+<tr>
+<td title='BetterLifeTest.AdminPageTest.Verify_Reject_All_Button()'><b>Verify_Reject_All_Button</b><br>Test class: BetterLifeTest.AdminPageTest</td>
+<td></td>
+<td>62</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
 <tr>
 <td title='BetterLifeTest.AdminPageTest.Verify_Approve_And_Reject_A_Single_FO()'><b>Verify_Approve_And_Reject_A_Single_FO</b><br>Test class: BetterLifeTest.AdminPageTest</td>
 <td></td>
-<td>88</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
-<tr>
-<td title='BetterLifeTest.AdminPageTest.Reset_Process_Test()'><b>Reset_Process_Test</b><br>Test class: BetterLifeTest.AdminPageTest</td>
-<td></td>
-<td>74</td>
-<td>BetterLifeTest.AdminPageTest@2a693f59</td></tr>
+<td>87</td>
+<td>BetterLifeTest.AdminPageTest@433defed</td></tr>
 </table><p>
 </body>
 </html>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Supervisor</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 20 14:08:50 WAT 2023</td>
+<td>Started on:</td><td>Mon Jan 23 14:35:08 WAT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>223 seconds (223572 ms)</td>
+<tr><td>Total time:</td><td>273 seconds (273244 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,190 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='BetterLifeTest.SupervisorPageTest.Add_Field_Officer_To_Village()'><b>Add_Field_Officer_To_Village</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//textarea[@id=&apos;notes&apos;]&quot;}
-  (Session info: MicrosoftEdge=109.0.1518.55)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b95af4b227108a46141060db2753173e, findElement {using=xpath, value=//textarea[@id=&apos;notes&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:59275}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59275/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b95af4b227108a46141060db2753173e
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at BetterLifePages.SupervisorPage.AddFieldOfficerToVillage2(SupervisorPage.java:169)
-	at BetterLifeTest.SupervisorPageTest.Add_Field_Officer_To_Village(SupervisorPageTest.java:119)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1171491314", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1171491314'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//textarea[@id=&apos;notes&apos;]&quot;}
-  (Session info: MicrosoftEdge=109.0.1518.55)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b95af4b227108a46141060db2753173e, findElement {using=xpath, value=//textarea[@id=&apos;notes&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:59275}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59275/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b95af4b227108a46141060db2753173e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-	at BetterLifePages.SupervisorPage.AddFieldOfficerToVillage2(SupervisorPage.java:169)
-	at BetterLifeTest.SupervisorPageTest.Add_Field_Officer_To_Village(SupervisorPageTest.java:119)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>33</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
-<tr>
-<td title='BetterLifeTest.SupervisorPageTest.Verify_Remove_FO_From_Quadrant()'><b>Verify_Remove_FO_From_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;text-lg w-3/5 text-left&quot;&gt;...&lt;/div&gt; is not clickable at point (369, 277). Other element would receive the click: &lt;div class=&quot;loader-wrapper&quot;&gt;...&lt;/div&gt;
-  (Session info: MicrosoftEdge=109.0.1518.55)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [3ce46f2af935b8553c576dacfdcfb687, clickElement {id=47fadac7-2919-448d-884a-fcda8dd48bbd}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (3ce46f2af935b8553c576dacfdcfb687)] -&gt; xpath: //div[normalize-space()=&apos;Assign Field Officers to Quadrants&apos;]]
-Session ID: 3ce46f2af935b8553c576dacfdcfb687
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at BetterLifePages.SupervisorPage.Remove_FO_From_Quadrant_1(SupervisorPage.java:123)
-	at BetterLifeTest.SupervisorPageTest.Verify_Remove_FO_From_Quadrant(SupervisorPageTest.java:61)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2021230836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2021230836'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;text-lg w-3/5 text-left&quot;&gt;...&lt;/div&gt; is not clickable at point (369, 277). Other element would receive the click: &lt;div class=&quot;loader-wrapper&quot;&gt;...&lt;/div&gt;
-  (Session info: MicrosoftEdge=109.0.1518.55)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;ENE&apos;, ip: &apos;192.168.77.240&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [3ce46f2af935b8553c576dacfdcfb687, clickElement {id=47fadac7-2919-448d-884a-fcda8dd48bbd}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.55, ms:edgeOptions: {debuggerAddress: localhost:51621}, msedge: {msedgedriverVersion: 109.0.1518.61 (354b36f96bab..., userDataDir: C:\Users\bglag\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51621/devtoo..., se:cdpVersion: 109.0.1518.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: msedge on WINDOWS (3ce46f2af935b8553c576dacfdcfb687)] -&gt; xpath: //div[normalize-space()=&apos;Assign Field Officers to Quadrants&apos;]]
-Session ID: 3ce46f2af935b8553c576dacfdcfb687
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at BetterLifePages.SupervisorPage.Remove_FO_From_Quadrant_1(SupervisorPage.java:123)
-	at BetterLifeTest.SupervisorPageTest.Verify_Remove_FO_From_Quadrant(SupervisorPageTest.java:61)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>12</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -260,40 +76,50 @@ Session ID: 3ce46f2af935b8553c576dacfdcfb687
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BetterLifeTest.SupervisorPageTest.Add_Lead_Coach_Button_In_Go_To_Quadrant()'><b>Add_Lead_Coach_Button_In_Go_To_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
+<td title='BetterLifeTest.SupervisorPageTest.Verify_Manage_Field_Officer_Distance_Travelled_Button()'><b>Verify_Manage_Field_Officer_Distance_Travelled_Button</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
-<td>32</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>13</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 <tr>
 <td title='BetterLifeTest.SupervisorPageTest.Verify_Add_FO_To_Quadrant_For_Assignment()'><b>Verify_Add_FO_To_Quadrant_For_Assignment</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
 <td>44</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 <tr>
 <td title='BetterLifeTest.SupervisorPageTest.Verify_Send_For_Approval_Button()'><b>Verify_Send_For_Approval_Button</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
-<td>13</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>12</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
+<tr>
+<td title='BetterLifeTest.SupervisorPageTest.Verify_Remove_FO_From_Quadrant()'><b>Verify_Remove_FO_From_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
+<td></td>
+<td>56</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 <tr>
 <td title='BetterLifeTest.SupervisorPageTest.Verify_Manage_Field_Officer_Portfolio_Size_Button()'><b>Verify_Manage_Field_Officer_Portfolio_Size_Button</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
-<td>9</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
-<tr>
-<td title='BetterLifeTest.SupervisorPageTest.Verify_Add_FO_To_Quadrant()'><b>Verify_Add_FO_To_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
-<td></td>
-<td>42</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>13</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 <tr>
 <td title='BetterLifeTest.SupervisorPageTest.Verify_View_A_Field_Officer_Allocation()'><b>Verify_View_A_Field_Officer_Allocation</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
-<td>22</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>21</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 <tr>
-<td title='BetterLifeTest.SupervisorPageTest.Verify_Manage_Field_Officer_Distance_Travelled_Button()'><b>Verify_Manage_Field_Officer_Distance_Travelled_Button</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
+<td title='BetterLifeTest.SupervisorPageTest.Add_Lead_Coach_Button_In_Go_To_Quadrant()'><b>Add_Lead_Coach_Button_In_Go_To_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
 <td></td>
-<td>12</td>
-<td>BetterLifeTest.SupervisorPageTest@73eb439a</td></tr>
+<td>29</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
+<tr>
+<td title='BetterLifeTest.SupervisorPageTest.Add_Field_Officer_To_Village()'><b>Add_Field_Officer_To_Village</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
+<td></td>
+<td>38</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
+<tr>
+<td title='BetterLifeTest.SupervisorPageTest.Verify_Add_FO_To_Quadrant()'><b>Verify_Add_FO_To_Quadrant</b><br>Test class: BetterLifeTest.SupervisorPageTest</td>
+<td></td>
+<td>43</td>
+<td>BetterLifeTest.SupervisorPageTest@19932c16</td></tr>
 </table><p>
 </body>
 </html>

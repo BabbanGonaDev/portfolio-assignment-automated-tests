@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BetterLifeTest.SupervisorPageTest">
+      <class name="BetterLifeTest.LogingPageTest">
         <methods>
-          <include name="Add_Field_Officer_To_Village"/>
+          <include name="Verify_Direct_Supervisor_Login_Logout"/>
+          <include name="Verify_In_Season_Advisor_Login_Logout"/>
+          <include name="Verify_TGE_Supervisor_Login_Logout"/>
+          <include name="Verify_Admin_Login_LogOut"/>
         </methods>
-      </class> <!-- BetterLifeTest.SupervisorPageTest -->
+      </class> <!-- BetterLifeTest.LogingPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

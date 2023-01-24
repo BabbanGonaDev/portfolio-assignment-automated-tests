@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Supervisor(failed)">
+  <test thread-count="5" name="Authorization(failed)">
     <classes>
-      <class name="BetterLifeTest.SupervisorPageTest">
+      <class name="BetterLifeTest.LogingPageTest">
         <methods>
-          <include name="Verify_Remove_FO_From_Quadrant"/>
-          <include name="Add_Field_Officer_To_Village"/>
+          <include name="Verify_Direct_Supervisor_Login_Logout"/>
+          <include name="Verify_In_Season_Advisor_Login_Logout"/>
+          <include name="Verify_TGE_Supervisor_Login_Logout"/>
+          <include name="Verify_Admin_Login_LogOut"/>
         </methods>
-      </class> <!-- BetterLifeTest.SupervisorPageTest -->
+      </class> <!-- BetterLifeTest.LogingPageTest -->
     </classes>
-  </test> <!-- Supervisor(failed) -->
-  <test thread-count="5" name="Admin(failed)">
-    <classes>
-      <class name="BetterLifeTest.AdminPageTest">
-        <methods>
-          <include name="Verify_Re_Assign_FO"/>
-        </methods>
-      </class> <!-- BetterLifeTest.AdminPageTest -->
-    </classes>
-  </test> <!-- Admin(failed) -->
+  </test> <!-- Authorization(failed) -->
 </suite> <!-- Failed suite [Suite] -->

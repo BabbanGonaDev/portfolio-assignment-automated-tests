@@ -79,6 +79,19 @@ public class BaseClass {
 		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
 	}
 	
+	public static void Admin_Username_password_2(WebDriver driver, String username, String password) throws InterruptedException{
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
+		Thread.sleep(5000);
+	}
+	
+	public static void Supervisor_Username_password_2(WebDriver driver, String username, String password) {
+		driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
+	}
+	
 	
 	public static void TearDown(WebDriver driver) {
 		driver.quit();

@@ -29,7 +29,11 @@ public class LoginPage {
 	@FindBy(xpath="//span[normalize-space()='Logout']")
 	WebElement logout;
 	
+	@FindBy(css="div[role='alert'] div:nth-child(1)")
+	WebElement Invalid_Username_Password_Alert;
 	
+	@FindBy(xpath="//div[normalize-space()='Username is empty']")
+	WebElement Empty_Credential_Field_Alert;
 	
 	
 	
@@ -57,6 +61,17 @@ public class LoginPage {
 		
 	}
 	
+	
+	public String Invalid_Credential_Alert() throws InterruptedException {
+		
+		return Invalid_Username_Password_Alert.getText();
+	}
+	
+	
+	public boolean Empty_Credential_Field_Alert() throws InterruptedException {
+		
+		return Empty_Credential_Field_Alert.isDisplayed();
+	}
 	
 	
 	
