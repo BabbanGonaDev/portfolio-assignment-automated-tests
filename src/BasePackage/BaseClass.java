@@ -5,8 +5,11 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,25 +19,43 @@ public class BaseClass {
 
 	
 	public static  WebDriver Browser(String BrowserType) {
-		if(BrowserType.equalsIgnoreCase("Chrome")) {
+		if(BrowserType.contains("Chrome")) {
+			ChromeOptions options = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
-			WebDriver driver = new ChromeDriver();
+			
+			if(BrowserType.contains("headless")) {
+				options.setHeadless(true);
+			}
+			
+			WebDriver driver = new ChromeDriver(options);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			driver.manage().window().maximize();
 			driver.get("https://portfolio-assignment.babbangonaapps.com/login");
 			return driver;
 		}
-		else if(BrowserType.equalsIgnoreCase("Edge")) {
+		else if(BrowserType.contains("Edge")) {
+			EdgeOptions options = new EdgeOptions();
 			WebDriverManager.edgedriver().setup();
-			WebDriver driver = new EdgeDriver();
+			
+			if(BrowserType.contains("headless")) {
+				options.setHeadless(true);
+			}
+			
+			WebDriver driver = new EdgeDriver(options);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			driver.manage().window().maximize();
 			driver.get("https://portfolio-assignment.babbangonaapps.com/login");
 			return driver;
 		}
-		else if(BrowserType.equalsIgnoreCase("Firefox")) {
+		else if(BrowserType.contains("Firefox")) {
+			FirefoxOptions options = new FirefoxOptions();
 			WebDriverManager.firefoxdriver().setup();
-			WebDriver driver = new FirefoxDriver();
+			
+			if(BrowserType.contains("headless")) {
+				options.setHeadless(true);
+			}
+			
+			WebDriver driver = new FirefoxDriver(options);
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 			driver.manage().window().maximize();
 			driver.get("https://portfolio-assignment.babbangonaapps.com/login");
@@ -47,7 +68,7 @@ public class BaseClass {
 	
 	
 	public static WebDriver SetUp() {
-		return Browser("edge");
+		return Browser("Chrome headless");
 	}
 	
 	
